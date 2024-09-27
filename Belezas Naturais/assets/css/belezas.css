@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 main {
-  max-width: 800px; /* Ajustado para melhor leitura */
+  max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
   background: white;
@@ -52,8 +52,22 @@ section h2 {
   color: #007BFF;
 }
 
-section p {
+article {
+  margin-bottom: 20px;
+}
+
+article h3 {
+  color: #333;
+}
+
+article p {
   color: #555;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 footer {
@@ -65,6 +79,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-
-
